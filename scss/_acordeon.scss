@@ -1,0 +1,46 @@
+.ajuste{
+    width: 700px;
+    border: $titulos 3px solid;
+    margin: 0 auto;
+    h2{
+        font-family: "Quicksand", sans-serif;
+        color:$titulos;
+        padding: 10px;
+        text-align: center;
+    }
+    .accordion{
+        max-width: 650px;
+        margin: auto;
+        border: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        .accordion-item{
+            border: none; 
+            margin-bottom: 10px; 
+            .accordion-button{
+                background-color: #e6e2e2; 
+                color: $titulos;
+                font-weight: bold;
+                padding: 1rem;
+                transition: background-color 0.3s ease;
+                border-radius: 8px; 
+                box-shadow: none;
+                &:not(.accordion-button){
+                    background-color: #820050; 
+                    color: #fff;
+                }
+                &:hover{
+                    background-color:  rgba(201, 45, 118, 0.774); 
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+        .accordion-body{
+            background-color: #ffffff;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: black;
+            border-left: 3px solid  rgb(197, 77, 133)2;  
+            border-radius: 8px;  
+        }
+    }
+}

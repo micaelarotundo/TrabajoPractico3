@@ -1,0 +1,78 @@
+/*MEDIDAS*/
+
+@media (max-width: 768px) {
+
+    .footer{
+        flex-direction: column;
+        height: auto;
+    }
+        
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .mainproductos {
+        grid-template-columns: 1fr; 
+    }
+    }
+    
+    
+    @media (max-width: 768px) {
+    .ajuste, .accordion {
+        width: 100%; 
+        padding: 10px; 
+        margin: 10px auto; 
+    }
+    
+    .accordion-button {
+    font-size: 1rem; 
+    padding: 0.8rem; 
+    }
+    
+    .accordion-body {
+        font-size: 0.9rem; 
+    }
+    
+    }
+    
+    
+    @media (max-width: 768px) {
+    .maincontacto section {
+        width: 100%; 
+        max-width: 100%; 
+        padding: 15px;
+    }
+    
+    .form-container div {
+        flex-direction: column;
+        margin-bottom: 15px;
+        width: 100%; 
+    }
+    
+    .form-container div label {
+        font-size: 1rem; 
+        margin-bottom: 5px;
+    }
+    
+    .form-container div input[type="text"],
+    .form-container div input[type="email"],
+    .form-container div select,
+    .form-container div textarea {
+        width: 100%; 
+        font-size: 1rem; 
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .mensaje textarea {
+        width: 100%; 
+        resize: vertical;
+    }
+    
+    .form-container input[type="submit"] {
+        width: 100%; 
+        font-size: 1rem;
+        padding: 12px;
+    }
+    }
