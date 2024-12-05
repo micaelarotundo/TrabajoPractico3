@@ -1,3 +1,6 @@
+@mixin colorparrafo($color){
+    color: $color;
+}
 section{
     h2{
         font-family: "Quicksand", sans-serif;
@@ -6,19 +9,19 @@ section{
         text-align: center;
     }
     .parrafo-1{
-        color: #000000; 
+        @include colorparrafo(#000000); 
         font-weight: bold;
         font-size: 1.2em;
     }
     .parrafo-2{
-        color: #0061b1; 
+        @include colorparrafo(#0061b1); 
         font-style: italic;
         text-align: center;
         background-color: #3333335d;
         font-weight: bold;
     }
     .parrafo-3{
-        color: #000000;  
+        @include colorparrafo(#000000);  
         padding: 10px;
         border-radius: 5px;
         font-weight: bold;
